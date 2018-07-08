@@ -1,6 +1,7 @@
-ClassPasClass : Créer un matrice de formes à rendre cliquable
+#ClassPasClass : Créer un matrice de formes à rendre cliquable
 
-Instructions
+INSTRUCTIONS
+
   - Chaque élément (rond, carré, losange) peut avoir deux états : vide (pas de fond) et plein (un fond de couleur)  
   - Ajouter un bouton permettant de passer tous les éléments de l'état vide à l'état plein
   - Ajouter un bouton permettant de passer tous les éléments de l'état plein à l'état vide
@@ -10,14 +11,14 @@ Instructions
 
 COMPETENCES UTILISEES :
 
-HTML/CSS
-manipulation du DOM
-fonction en JS
-jquery : addClass(), removeClass(), toggleClas(), hasClass()
+  - HTML/CSS
+  - manipulation du DOM
+  - fonction en JS
+  - jquery : addClass(), removeClass(), toggleClas(), hasClass()
 
 PROBLEMES RENCONTRES:
 
-trouver par ou commencer
-creer une matrice avec des nom de class reutilisable par la suite en jquery
-responsive : pas tout a fait resolu...
-manipulation du DOM : en cours d'acquisition
+  - trouver par ou commencer
+  - creer une matrice avec des nom de class reutilisable par la suite en jquery
+  - responsive : pas tout a fait resolu...
+  - manipulation du DOM : en cours d'acquisition
