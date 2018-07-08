@@ -1,7 +1,4 @@
 
-
-
-
 $(".plein").click(function() {
 	$(".elmt").addClass("remplir");
 	
@@ -9,7 +6,6 @@ $(".plein").click(function() {
 
 $(".vide").click(function() {
 	$(".elmt").removeClass("remplir");
-	
 });
 
 $(".rond").click(function() {
@@ -27,9 +23,6 @@ $("#1").click(function() {
 		ligne.toggleClass("remplir");
 		col.removeClass("remplir");
 	}
-	/*$(".first .elmt").toggleClass("remplir");
-	$(".row div:nth-child(1)").toggleClass("remplir");*/
-	
 });
 
 
@@ -43,10 +36,7 @@ $("#7").click(function() {
 	} else {
 		ligne.toggleClass("remplir");
 		col.removeClass("remplir");
-	}
-	/*$(this).toggleClass("remplir");
-	$(".second .elmt").toggleClass("remplir");
-	$(".row div:nth-child(2)").toggleClass("remplir");*/
+	}	
 });
 
 $("#19").click(function() {
@@ -59,11 +49,7 @@ $("#19").click(function() {
 	} else {
 		ligne.toggleClass("remplir");
 		col.removeClass("remplir");
-	}
-	
-	/*$(this).toggleClass("remplir");
-	$(".fourth .elmt").toggleClass("remplir");
-	$(".row div:nth-child(4)").toggleClass("remplir");*/
+	}	
 });
 
 $("#25").click(function() {
@@ -77,10 +63,6 @@ $("#25").click(function() {
 		ligne.toggleClass("remplir");
 		col.removeClass("remplir");
 	}
-	
-	// $(this).toggleClass("remplir");
-	// $(".fifth .elmt").toggleClass("remplir");
-	// $(".row div:nth-child(5)").toggleClass("remplir");
 });
 
 $("#13").click(function() {
@@ -89,14 +71,10 @@ $("#13").click(function() {
 	$(this).toggleClass("remplir");
 	if ($(this).hasClass("remplir")) {
 		ligne.toggleClass("remplir");
-		col.toggleClass("remplir");
+		col.addClass("remplir");
 	} else {
 		ligne.toggleClass("remplir");
-		col.toggleClass("remplir");
+		col.removeClass("remplir");
 	}
-	
-	/*$(this).toggleClass("remplir");
-	$(".third .elmt").toggleClass("remplir");
-	$(".row div:nth-child(3)").toggleClass("remplir");*/
 });
 
